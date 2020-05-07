@@ -13,6 +13,7 @@ brew 'zsh-completions'
 brew 'jq'
 brew 'node'
 brew 'protobuf'
+brew 'watchman'
 
 # Containers
 brew 'kubernetes-cli'
