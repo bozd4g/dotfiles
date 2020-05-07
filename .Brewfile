@@ -14,6 +14,7 @@ brew 'jq'
 brew 'node'
 brew 'protobuf'
 brew 'watchman'
+brew 'yarn'
 
 # Containers
 brew 'kubernetes-cli'
