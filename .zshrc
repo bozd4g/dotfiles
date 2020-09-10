@@ -99,12 +99,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-PROMPT="$fg_bold[cyan]%}$USER%{$fg_bold[blue]%}@%m ${PROMPT}"
+#PROMPT="$fg_bold[white]%}$USER%{$fg_bold[white]%}@%m ${PROMPT}"
 
-# local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
-# PROMPT='${ret_status} %{$fg_bold[magenta]%}%n %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'
+#local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[magenta]%}➜ )"
+PROMPT='%{$fg_bold[white]%}%n %{$fg_bold[cyan]%}%~%{$reset_color%} $(git_prompt_info)${ret_status}%{$fg_bold[green]%}➜ '
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg_bold[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[blue]%}) %{$fg_bold[yellow]%}✗"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[blue]%})"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[magenta]%}) %{$fg_bold[yellow]%}✗"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[magenta]%}git:(%{$fg_bold[magenta]%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[magenta]%})"
