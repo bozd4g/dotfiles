@@ -1,2 +1,2 @@
-# Install FiraCode
+# FiraCode
 https://github.com/tonsky/FiraCode/wiki/Installing

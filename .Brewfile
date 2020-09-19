@@ -4,9 +4,7 @@ brew 'grep'
 # Development & Power Tools
 cask 'iterm2'
 cask 'visual-studio-code'
-cask 'goland'
-cask 'goland'
-cask 'goland'
+brew 'zsh'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 brew 'zsh-completions'
@@ -16,7 +14,8 @@ brew 'protobuf'
 brew 'watchman'
 brew 'yarn'
 brew 'go'
-brew 'gh
+brew 'gh'
+brew 'git'
 
 # Containers
 brew 'kubernetes-cli'
@@ -30,4 +29,3 @@ cask 'docker' # docker for desktop
 cask 'zoomus'
 cask 'slack'
 cask 'google-chrome'
-cask 'firefox'
