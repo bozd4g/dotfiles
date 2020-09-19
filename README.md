@@ -1,4 +1,4 @@
-# dotfiles
+# Furkan's MacOS Setup
 
 ## Download Xcode
 
@@ -42,7 +42,7 @@ Then run dotnet.zsh file.
 
 ## iTerm2
 
-Import bozd4g.itermcolors and bozd4g.itermprofile.json file for configurations, keymaps and colors.
+Import `bozd4g.itermcolors` and `bozd4g.itermprofile.json` file for configurations, keymaps and colors.
 
 ## Install spaceship for cmd prompt
 
@@ -55,4 +55,4 @@ $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/t
 
 ```
 
-And set ZSH_THEME="spaceship" in your `~/.zshrc`
+And set `ZSH_THEME="spaceship"` in your `~/.zshrc`
