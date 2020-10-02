@@ -4,6 +4,7 @@ brew 'grep'
 # Development & Power Tools
 cask 'iterm2'
 cask 'visual-studio-code'
+cask 'maccy'
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
