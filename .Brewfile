@@ -18,6 +18,7 @@ brew 'yarn'
 brew 'go'
 brew 'gh'
 brew 'git'
+brew 'protobuf'
 
 # Containers
 brew 'kubernetes-cli'
