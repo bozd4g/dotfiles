@@ -26,3 +26,4 @@ cask 'docker' # docker for desktop
 cask 'zoomus'
 cask 'slack'
 cask 'google-chrome'
+cask 'openinterminal'
