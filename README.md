@@ -18,7 +18,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 Install softwares what I am using via Homebrew;
 
 ```shell
-$ brew bundle --global
+$ brew bundle --file=./Brewfile
 
 $ brew analytics off
 ```
@@ -42,7 +42,12 @@ Then run dotnet.zsh file.
 
 ## iTerm2
 
-Import `bozd4g.itermcolors` and `bozd4g.itermprofile.json` file for configurations, keymaps and colors.
+Install oh my zsh;
+```shell
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+And import `bozd4g.itermcolors` and `bozd4g.itermprofile.json` file for configurations, keymaps and colors.
 
 ## Install spaceship for cmd prompt
 
