@@ -44,7 +44,7 @@ Install oh my zsh;
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-And import `bozd4g.itermcolors` and `bozd4g.itermprofile.json` file for configurations, keymaps and colors.
+And import `bozd4g.itermcolors`, `bozd4g.itermprofile.json` and `bozd4g.itermkeymap.json` file for configurations, keymaps and colors.
 
 ## Spaceship
 
