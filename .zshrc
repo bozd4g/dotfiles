@@ -47,6 +47,9 @@ alias gob="go build"
 alias gom="go run main.go"
 alias gobm="go build main.go"
 
+# other aliases
+alias ds="find . -name '.DS_Store' -type f -delete"
+
 
 # Go
 export PATH=$(go env GOPATH)/bin:$PATH
