@@ -2,7 +2,7 @@
 
 ## Download Xcode
 
-To download, look AppStore application.
+To download, look AppStore.
 
 ## Brew
 
@@ -10,10 +10,9 @@ Install brew package manager for install softwares
 
 ```shell
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
 ```
 
-## Install softwares via Homebrew
+## Homebrew
 
 Install softwares what I am using via Homebrew;
 
@@ -21,21 +20,19 @@ Install softwares what I am using via Homebrew;
 $ brew bundle --file=./Brewfile
 
 $ brew analytics off
+
+$ brew bundle dump # for exports
 ```
 
-## Install Jetbrains Toolbox
+## VsCode Settings
 
-Click [here](https://www.jetbrains.com/toolbox-app/download/download-thanks.html) and download following apps;
+Open VsCode and install `Sync` plugin. After use `vscode.txt` file to download settings from gists.
 
-1. Rider
-2. Goland
-3. WebStorm
-4. DataGrip
-5. IntelliJ IDEA
+## Jetbrains Toolbox
 
-After that import ide settings.
+Click [here](https://www.jetbrains.com/toolbox-app/download/download-thanks.html) and download the Datagrip application.
 
-## Install dotnet Core
+## .NET Core
 
 Click [here](https://dotnet.microsoft.com/download) and download latest version of .NET Core.
 Then run dotnet.zsh file.
@@ -49,7 +46,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 
 And import `bozd4g.itermcolors` and `bozd4g.itermprofile.json` file for configurations, keymaps and colors.
 
-## Install spaceship for cmd prompt
+## Spaceship
 
 Clone this repository;
 
@@ -57,7 +54,9 @@ Clone this repository;
 $ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 
 $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-
 ```
 
 And set `ZSH_THEME="spaceship"` in your `~/.zshrc`
+
+## Fig
+Click [here](https://fig.io/) and download latest version of Fig.
