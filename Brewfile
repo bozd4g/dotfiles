@@ -43,3 +43,4 @@ cask "openinterminal"
 cask "iterm2"
 cask "maccy"
 cask 'visual-studio-code'
+cask 'calibre'
