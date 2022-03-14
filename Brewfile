@@ -1,7 +1,6 @@
 # System tools
 brew 'grep'
 brew 'jq'
-brew "gnu-time"
 
 # Golang
 brew 'go'

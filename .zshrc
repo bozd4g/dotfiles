@@ -52,6 +52,7 @@ alias gol="golangci-lint run"
 alias ds="find . -name '.DS_Store' -type f -delete"
 alias whouseport="lsof -i -n -P | grep"
 alias killport="kill -9"
+alias time="/usr/bin/time"
 
 # Go
 export PATH=$(go env GOPATH)/bin:$PATH
