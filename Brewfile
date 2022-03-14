@@ -1,11 +1,13 @@
 # System tools
 brew 'grep'
 brew 'jq'
+brew 'gnu-time'
 
 # Golang
 brew 'go'
 brew "mockery"
 brew "golangci-lint"
+brew 'graphviz'
 
 # NodeJS
 brew 'node'
