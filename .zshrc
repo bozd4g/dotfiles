@@ -26,7 +26,6 @@ alias kctx="kubectx"
 
 # application aliases
 alias code="open -a Visual\ Studio\ Code.app"
-alias goland="open -a GoLand.app"
 alias datagrip="open -a DataGrip.app"
 
 # git aliases
@@ -39,6 +38,7 @@ alias gpl="git pull"
 alias gbclear="git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d"
 alias gsoft="git reset HEAD~1 --soft"
 alias ghard="git reset HEAD~1 --hard"
+alias gclean="git clean -fd"
 alias gu="git-user"
 
 # go aliases
@@ -46,10 +46,12 @@ alias gor="go run"
 alias gob="go build"
 alias gom="go run main.go"
 alias gobm="go build main.go"
+alias gol="golangci-lint run"
 
 # other aliases
 alias ds="find . -name '.DS_Store' -type f -delete"
-
+alias whouseport="lsof -i -n -P | grep"
+alias killport="kill -9"
 
 # Go
 export PATH=$(go env GOPATH)/bin:$PATH
@@ -60,7 +62,6 @@ export GOPROXY=proxy.golang.org
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 
 #### FIG ENV VARIABLES ####
 # Please make sure this block is at the end of this file.
