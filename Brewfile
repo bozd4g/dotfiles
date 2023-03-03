@@ -35,6 +35,9 @@ brew "k9s"
 brew "kubectx"
 brew "helm"
 
+# Cloud
+cask aws-vault
+
 # Desktop Software
 cask 'zoomus'
 cask 'slack'
