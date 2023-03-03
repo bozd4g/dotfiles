@@ -7,7 +7,6 @@ brew 'gnu-time'
 brew 'go'
 brew "mockery"
 brew "golangci-lint"
-brew 'graphviz'
 
 # NodeJS
 brew 'node'
@@ -26,6 +25,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+tap "homebrew/cask-fonts"
 cask "font-fira-code"
 
 # Containers
@@ -41,7 +41,6 @@ cask 'slack'
 cask 'google-chrome'
 cask 'openinterminal'
 cask "monitorcontrol"
-cask "openinterminal"
 cask "iterm2"
 cask "maccy"
 cask 'visual-studio-code'
