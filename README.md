@@ -57,6 +57,3 @@ $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/t
 ```
 
 And set `ZSH_THEME="spaceship"` in your `~/.zshrc`
-
-## Fig
-Click [here](https://fig.io/) and download latest version of Fig.
