@@ -48,6 +48,7 @@ alias gobm="go build main.go"
 alias ds="find . -name '.DS_Store' -type f -delete"
 alias pw="~/Documents/projects/personal"
 alias ww="~/Documents/projects/work"
+alias q!="exit"
 
 # ports
 alias pfind="pfind"
