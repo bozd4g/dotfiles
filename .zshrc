@@ -1,9 +1,5 @@
-
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
-
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 export ZSH="/Users/furkan.bozdag/.oh-my-zsh"
 ZSH_THEME="spaceship"
 
@@ -21,11 +17,13 @@ alias dps="docker ps"
 alias di="docker images"
 alias dcrm="docker rm -f $(docker ps -aq)"
 alias dirm="docker rmi -f $(docker images -aq)"
+alias dcup="docker-compose up"
 alias k="kubectl"
 alias kctx="kubectx"
 
 # application aliases
 alias code="open -a Visual\ Studio\ Code.app"
+alias goland="open -a GoLand.app"
 alias datagrip="open -a DataGrip.app"
 
 # git aliases
@@ -38,7 +36,6 @@ alias gpl="git pull"
 alias gbclear="git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d"
 alias gsoft="git reset HEAD~1 --soft"
 alias ghard="git reset HEAD~1 --hard"
-alias gclean="git clean -fd"
 alias gu="git-user"
 
 # go aliases
@@ -46,16 +43,23 @@ alias gor="go run"
 alias gob="go build"
 alias gom="go run main.go"
 alias gobm="go build main.go"
-alias gol="golangci-lint run"
 
 # other aliases
 alias ds="find . -name '.DS_Store' -type f -delete"
-alias whouseport="lsof -i -n -P | grep"
-alias killport="kill -9"
-alias time="gtime -p"
+alias pw="~/Documents/projects/personal"
+alias ww="~/Documents/projects/work"
 
-# path aliases
-alias personal="cd ~/Documents/Projects/personal"
+# ports
+alias pfind="pfind"
+alias pkill="pkill"
+
+function pfind() {
+  lsof -t -i:$1
+}
+
+function pkill() {
+  kill $(pfind $1)
+}
 
 # Go
 export PATH=$(go env GOPATH)/bin:$PATH
