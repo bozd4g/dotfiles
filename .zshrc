@@ -17,6 +17,7 @@ alias dps="docker ps"
 alias di="docker images"
 alias dcrm="docker rm -f $(docker ps -aq)"
 alias dirm="docker rmi -f $(docker images -aq)"
+alias dc="docker-compose"
 alias dcup="docker-compose up"
 alias k="kubectl"
 alias kctx="kubectx"
@@ -46,8 +47,8 @@ alias gobm="go build main.go"
 
 # other aliases
 alias ds="find . -name '.DS_Store' -type f -delete"
-alias pw="~/Documents/projects/personal"
-alias ww="~/Documents/projects/work"
+alias pw="~/Documents/personal"
+alias ww="~/Documents/work"
 alias q!="exit"
 
 # ports
@@ -66,6 +67,10 @@ function pkill() {
 export PATH=$(go env GOPATH)/bin:$PATH
 export GO111MODULE=on
 export GOPROXY=proxy.golang.org
+# export GOPRIVATE=https://github.com/xxxx/*
+
+# AWS
+export AWS_SESSION_TTL=12h
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
