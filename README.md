@@ -24,18 +24,9 @@ $ brew analytics off
 $ brew bundle dump # for exports
 ```
 
-## VsCode Settings
-
-Open VsCode and install `Sync` plugin. After use `vscode.txt` file to download settings from gists.
-
 ## Jetbrains Toolbox
 
 Click [here](https://www.jetbrains.com/toolbox-app/download/download-thanks.html) and download the Datagrip application.
-
-## .NET Core
-
-Click [here](https://dotnet.microsoft.com/download) and download latest version of .NET Core.
-Then run dotnet.zsh file.
 
 ## iTerm2
 
