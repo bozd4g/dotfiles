@@ -17,6 +17,7 @@ brew "nvm"
 brew "protobuf"
 brew "watchman"
 brew "git"
+brew "gh"
 brew "protobuf"
 brew "terraform"
 brew "telnet"
@@ -27,6 +28,7 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
+brew "prettier"
 
 # Containers
 cask "docker" 
@@ -36,6 +38,7 @@ brew "kubectx"
 brew "helm"
 
 # Cloud
+brew "awscli"
 cask "aws-vault"
 
 # Desktop Software

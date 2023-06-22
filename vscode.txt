@@ -1,2 +1,0 @@
-# Visual Studio Code Settings
-https://gist.github.com/bozd4g/c759a3b5d38ce0addcb92d7e7139dd82
