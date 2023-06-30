@@ -21,6 +21,7 @@ brew "gh"
 brew "protobuf"
 brew "terraform"
 brew "telnet"
+brew "graphviz"
 
 brew "zsh"
 brew "zsh-autosuggestions"
